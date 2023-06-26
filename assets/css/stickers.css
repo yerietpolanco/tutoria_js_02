@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.sticker-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sticker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sticker img {
+  width: 300px;
+}
+
+button {
+  width: 100px;
+}
